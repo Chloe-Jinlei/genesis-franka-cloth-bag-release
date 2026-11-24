@@ -1,0 +1,19 @@
+{
+  "repository": "Chloe-Jinlei/genesis-franka-cloth-bag-release",
+  "tag": "v1.0.0-direct-release",
+  "genesis_source": {
+    "file": "genesis-world-ffd119c3-source.tar.gz",
+    "bytes": 87840636,
+    "sha256": "4e85d4a3e962a74741ca3d89e1df7b48b3c1b145bc617d2de0509f238a7105aa"
+  },
+  "native_vendor": {
+    "file": "native-vendor-cp312-linux-x86_64.tar.gz",
+    "bytes": 67620191,
+    "sha256": "3fe335e77dbb5fe1d25e04d38f2788b60b2b348068601519f72b9c669bd66e60"
+  },
+  "evidence": {
+    "file": "recorded-workflow-evidence.tar.gz",
+    "bytes": 149312866,
+    "sha256": "7f015b6587f23247ecfa243f17d2d9c00526988c0c8248a4be86d8b582d81a41"
+  }
+}

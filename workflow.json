@@ -1,0 +1,189 @@
+{
+  "repository": "Chloe-Jinlei/genesis-franka-cloth-bag-release",
+  "release": "v1.0.0-direct-release",
+  "recording_scope": "Latest recorded workflow ending with explicitly requested direct release; no complete containment claim",
+  "video": {
+    "file": "media/full-process.mp4",
+    "duration_s": 57.6,
+    "frames": 1152,
+    "fps": 20,
+    "size_px": [
+      960,
+      720
+    ],
+    "segments": [
+      {
+        "run": "flat_full_17",
+        "video_start_s": 0,
+        "video_end_s": 47.3,
+        "video_frames": 946,
+        "restart_mode": "original native simulation prefix",
+        "run_directory": "teddy_bag_flat_start/runs/flat_full_17"
+      },
+      {
+        "run": "final_stage_18",
+        "video_start_s": 47.3,
+        "video_end_s": 52.75,
+        "video_frames": 109,
+        "restart_mode": "approximate saved-position / estimated-velocity reinitialization",
+        "run_directory": "teddy_bag_flat_start/runs/final_stage_18",
+        "recorded_status": "stopped",
+        "local_simulation_duration_s": 5.344999999999908,
+        "commands": [
+          {
+            "type": "move",
+            "name": "diagonal_insert",
+            "right_tcp": [
+              -0.15607709596701713,
+              -0.1068268152449448,
+              1.04
+            ],
+            "rotation_xyzw": [
+              0.7098338498246195,
+              -0.4960843358813485,
+              -0.4098014954552594,
+              -0.28652918116477094
+            ],
+            "duration": 6.024024
+          },
+          {
+            "type": "hold",
+            "name": "relax_contact",
+            "duration": 0.05
+          }
+        ]
+      },
+      {
+        "run": "final_stage_19",
+        "video_start_s": 52.75,
+        "video_end_s": 56.7,
+        "video_frames": 79,
+        "restart_mode": "native IPC checkpoint recovery",
+        "run_directory": "teddy_bag_flat_start/runs/final_stage_19",
+        "recorded_status": "stopped",
+        "local_simulation_duration_s": 3.764999999999942,
+        "commands": [
+          {
+            "type": "move",
+            "name": "unload_bag_rim",
+            "right_tcp": [
+              -0.1553841624,
+              -0.1067069138,
+              1.0540952506
+            ],
+            "rotation_xyzw": [
+              0.7098150384,
+              -0.4961178644,
+              -0.4098463623,
+              -0.286453548
+            ],
+            "duration": 0.75
+          },
+          {
+            "type": "move",
+            "name": "enter_between_panels",
+            "right_tcp": [
+              -0.1853841624,
+              -0.1117069138,
+              1.0340952506
+            ],
+            "rotation_xyzw": [
+              0.7098150384,
+              -0.4961178644,
+              -0.4098463623,
+              -0.286453548
+            ],
+            "duration": 0.8
+          },
+          {
+            "type": "move",
+            "name": "clear_palm_from_rim",
+            "right_tcp": [
+              -0.18538416236775412,
+              -0.11170691376034717,
+              1.0440952505932624
+            ],
+            "rotation_xyzw": [
+              0.757237892745024,
+              -0.529263576905232,
+              -0.31369015722751753,
+              -0.2192471783424609
+            ],
+            "duration": 1.0
+          },
+          {
+            "type": "move",
+            "name": "cross_actual_mouth",
+            "right_tcp": [
+              -0.19225776594,
+              -0.10807604915,
+              1.0439694166
+            ],
+            "duration": 0.45
+          }
+        ]
+      },
+      {
+        "run": "final_stage_20",
+        "video_start_s": 56.7,
+        "video_end_s": 57.6,
+        "video_frames": 18,
+        "restart_mode": "native IPC checkpoint recovery, direct release",
+        "run_directory": "teddy_bag_flat_start/runs/final_stage_20",
+        "recorded_status": "release_completed",
+        "local_simulation_duration_s": 0.8000000000000006,
+        "commands": [
+          {
+            "type": "release_direct",
+            "name": "direct_release_teddy",
+            "duration": 0.8
+          }
+        ]
+      }
+    ],
+    "uninterrupted_exact_native_run": false
+  },
+  "release_result": {
+    "requested_action": "Direct release without COM or containment gate",
+    "release_completed": true,
+    "actual_finger_openings_m": [
+      0.039992343661995174,
+      0.039994724353774914
+    ],
+    "simulation_time_for_release_s": 0.8000000000000006,
+    "left_command_fixed": true,
+    "right_arm_command_fixed": true,
+    "source_checkpoint": "teddy_bag_flat_start/runs/final_stage_19",
+    "whole_scene_exact_continuation": false,
+    "placement_success_not_assessed": true,
+    "video": "media/full-process.mp4"
+  },
+  "initial_views_manifest": "media/initial_views/initial_views.json",
+  "archives_manifest": "environment/release-assets.json",
+  "media_checksums": {
+    "media/direct-release.mp4": "d37dbfb2c9bf0a2a56ec9a120ae2db2029719a69cbd685989e71b17855705502",
+    "media/full-process.mp4": "e6654fea3f0bc0e960366ef2c38e81c6d8358edb0a59b49125f8d003c24fc10d",
+    "media/release-result.json": "76b07e23d6b54345d8d8ea269aa816f4e81845609170faacaa7700ad1760c6a2",
+    "media/release-final-detail.png": "d3b9a02fb5ff343786b83254c9e33ff4a681804c7d611ca77c922dd365d4bf62",
+    "media/initial_views/initial_04_back.png": "08cf3a20cc9fed6adc9a02d442faef8ce26c68908f2c46393f2e0139b9236340",
+    "media/initial_views/render.log": "f3d92307856628bddfebee1e684abe0d090c35efe81c80d328848d03e3454532",
+    "media/initial_views/source_initial_state.npz": "3651d7799792f56ce9c45c4bce0bcdfac34488bfaa2d40fd1bf92cd9956222ab",
+    "media/initial_views/initial_01_perspective.png": "2405d72012b1baca6852625710793c55cecc252136843556553888f81afc458a",
+    "media/initial_views/initial_03_side.png": "ac43161e00365d824dedfaee1a53701ad46d9a845ed336c54a511f204be05409",
+    "media/initial_views/initial_views.json": "c1bd94d769080d7fb03b86f1dbc0d24af7dddfe65efbf7372464c7829bf89ce8",
+    "media/initial_views/initial_02_top.png": "35c5b34d3fa22123c16668afe69e00a5ba1b4a2332ce7ea184fbcc642eb1ea45",
+    "media/initial_views/source_config.json": "8325ee421293be2cf7731713f78d92392f73d883a2559c6b91f3a997db72ea4f"
+  },
+  "portability_changes": [
+    "MJCF mesh directory replaced by relative bundled equivalent meshes",
+    "Native checkpoint loader prefers run/native_workspace over historical absolute workspace",
+    "Historical build_flat_bag input files bundled under assets",
+    "Runtime launch/download/restore scripts added"
+  ],
+  "verification": {
+    "recorded_direct_release_executed": true,
+    "zero_step_initial_views_verified": true,
+    "clean_machine_install_tested": false,
+    "whole_scene_exact_continuation_certified": false
+  }
+}

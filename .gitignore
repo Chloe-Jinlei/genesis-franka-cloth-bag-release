@@ -1,0 +1,14 @@
+.venv/
+genesis-world/
+release-assets/
+teddy_bag_flat_start/vendor/
+teddy_bag_flat_start/runs/
+teddy_bag_flat_start/runtime_ipc/native_checkpoint_snapshots/
+runs/
+**/.cache/
+**/__pycache__/
+*.pyc
+*.pyo
+.env
+.env.*
+.restore-*/

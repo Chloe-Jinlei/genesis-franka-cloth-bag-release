@@ -1,0 +1,15 @@
+{
+  "requested_action": "Direct release without COM or containment gate",
+  "release_completed": true,
+  "actual_finger_openings_m": [
+    0.039992343661995174,
+    0.039994724353774914
+  ],
+  "simulation_time_for_release_s": 0.8000000000000006,
+  "left_command_fixed": true,
+  "right_arm_command_fixed": true,
+  "source_checkpoint": "teddy_bag_flat_start/runs/final_stage_19",
+  "whole_scene_exact_continuation": false,
+  "placement_success_not_assessed": true,
+  "video": "media/full-process.mp4"
+}

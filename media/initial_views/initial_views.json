@@ -1,0 +1,156 @@
+{
+  "status": "rendered_verified_recorded_initial_state",
+  "state_time_s": 0.0,
+  "source_run": "flat_full_17",
+  "source_state_sha256": "3651d7799792f56ce9c45c4bce0bcdfac34488bfaa2d40fd1bf92cd9956222ab",
+  "source_config_sha256": "8325ee421293be2cf7731713f78d92392f73d883a2559c6b91f3a997db72ea4f",
+  "reference": {
+    "repository": "https://github.com/Chloe-Jinlei/four-view-genesis",
+    "revision": "049bc52b471baf13e6a949e5ad5015d115927560",
+    "camera_source": "simulate.py",
+    "camera_source_url": "https://github.com/Chloe-Jinlei/four-view-genesis/blob/049bc52b471baf13e6a949e5ad5015d115927560/simulate.py#L119-L128",
+    "view_name_source": "README.md: Four original input images; oblique/front perspective, top, side, back",
+    "previous_native_resolution_px": [
+      960,
+      600
+    ],
+    "scope": "Exact camera poses and FOV from the previous public dressing reconstruction, not recovered calibration of its original reference photographs.",
+    "extra_detail_camera_excluded": true
+  },
+  "renderer": "Genesis native camera, original scene geometry and surfaces",
+  "camera_resolution_policy": "Original 8:5 aspect ratio; native resolution increased from 960x600 to 1600x1000 by default",
+  "physics_steps_executed": 0,
+  "soft_state_setters_used": false,
+  "physical_state_unchanged": true,
+  "initial_state_max_absolute_errors": {
+    "bag": 0.0,
+    "bear": 0.0,
+    "q_left": 0.0,
+    "q_right": 0.0
+  },
+  "clock_before": {
+    "genesis_time_s": 0.0,
+    "genesis_steps": [
+      0
+    ],
+    "native_ipc_frame": 0
+  },
+  "clock_after": {
+    "genesis_time_s": 0.0,
+    "genesis_steps": [
+      0
+    ],
+    "native_ipc_frame": 0
+  },
+  "image_processing": "Native RGB encoded losslessly as PNG; no pixel edits",
+  "images": [
+    {
+      "file": "initial_01_perspective.png",
+      "sha256": "2405d72012b1baca6852625710793c55cecc252136843556553888f81afc458a",
+      "dimensions_px": [
+        1600,
+        1000
+      ],
+      "camera": {
+        "model": "pinhole",
+        "position_m": [
+          1.65,
+          -2.1,
+          1.85
+        ],
+        "lookat_m": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fov_degrees": 42.0
+      }
+    },
+    {
+      "file": "initial_02_top.png",
+      "sha256": "35c5b34d3fa22123c16668afe69e00a5ba1b4a2332ce7ea184fbcc642eb1ea45",
+      "dimensions_px": [
+        1600,
+        1000
+      ],
+      "camera": {
+        "model": "pinhole",
+        "position_m": [
+          0.0,
+          -0.001,
+          2.85
+        ],
+        "lookat_m": [
+          0.0,
+          0.0,
+          0.72
+        ],
+        "up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fov_degrees": 35.0
+      }
+    },
+    {
+      "file": "initial_03_side.png",
+      "sha256": "ac43161e00365d824dedfaee1a53701ad46d9a845ed336c54a511f204be05409",
+      "dimensions_px": [
+        1600,
+        1000
+      ],
+      "camera": {
+        "model": "pinhole",
+        "position_m": [
+          -2.0,
+          -0.3,
+          1.5
+        ],
+        "lookat_m": [
+          0.0,
+          0.0,
+          1.02
+        ],
+        "up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fov_degrees": 42.0
+      }
+    },
+    {
+      "file": "initial_04_back.png",
+      "sha256": "08cf3a20cc9fed6adc9a02d442faef8ce26c68908f2c46393f2e0139b9236340",
+      "dimensions_px": [
+        1600,
+        1000
+      ],
+      "camera": {
+        "model": "pinhole",
+        "position_m": [
+          0.0,
+          2.4,
+          1.65
+        ],
+        "lookat_m": [
+          0.0,
+          0.0,
+          1.02
+        ],
+        "up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fov_degrees": 42.0
+      }
+    }
+  ]
+}

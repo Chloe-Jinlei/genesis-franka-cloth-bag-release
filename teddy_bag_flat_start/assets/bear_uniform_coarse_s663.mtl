@@ -1,0 +1,6 @@
+newmtl fabric
+Kd 1 1 1
+Ka .2 .2 .2
+Ks .01 .01 .01
+Ns 3
+map_Kd teddy_fur.png
